@@ -11,3 +11,4 @@ git clone https://github.com/rafawhs/rwahasugui.zsh-theme $ZSH/themes/rwahasugui
 ```
 
 2. Go to your `~/.zshrc` file and set `ZSH_THEME=rwahasugui`
+.
