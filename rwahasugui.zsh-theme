@@ -34,9 +34,22 @@ RPROMPT+=' ${c_user}[%n]%{$reset_color%}'
 
 # git settings
 ZSH_THEME_GIT_PROMPT_PREFIX="─[%{\e[3m%}${c_git_1}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{\e[0m%}${c_git_2}*${c_base_1}%B]%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{\e[0m%}${c_base_1}%B]%{$reset_color%}"
+
+ZSH_THEME_GIT_PROMPT_DIRTY="%{\e[0m%}${c_git_2}‼%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{\e[0m%}%{$reset_color%}"
+
+ZSH_THEME_GIT_PROMPT_SUFFIX="${c_base_1}%B]%{$reset_color%}"
+
+# git remote
+ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_DETAILED=true
+ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_PREFIX="${c_git_1}%B(➥%b${c_base_3}"
+ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_SUFFIX="${c_git_1}%B)%b%{$reset_color%}"
+
+ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE=" ⇡"
+ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE_COLOR=${c_git_1}
+
+ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE=" ⇣"
+ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE_COLOR=${c_git_2}
 
 
 # virtualenv settings
