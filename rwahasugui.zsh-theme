@@ -8,6 +8,7 @@ c_base_3="$FG[014]"
 c_time="$FG[007]"
 c_git_1="$FG[010]"
 c_git_2="$FG[009]"
+c_git_3="$FG[003]"
 c_path="$FG[247]"
 c_user="$FG[001]"
 c_misc="$FG[237]"
@@ -46,7 +47,7 @@ ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_PREFIX="${c_git_1}%B(➥%b${c_base_3}"
 ZSH_THEME_GIT_PROMPT_REMOTE_STATUS_SUFFIX="${c_git_1}%B)%b%{$reset_color%}"
 
 ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE=" ⇡"
-ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE_COLOR=${c_git_1}
+ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE_COLOR=${c_git_3}
 
 ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE=" ⇣"
 ZSH_THEME_GIT_PROMPT_BEHIND_REMOTE_COLOR=${c_git_2}
